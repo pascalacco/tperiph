@@ -16,7 +16,7 @@ char GPIO_Conf ; // voir cidessous
 #define AltOut_Ppull 0xA
 #define AltOut_OD 0xE
 void MyGPIO_Init ( MyGPIO_Struct_TypeDef * GPIOStructPtr ) ;
-int MyGPIO_Read ( GPIO_TypeDef * GPIO , char GPIO_Pin ) ; // r e n v o i e 0 ou a u t r e chose d i f f e r e n t de 0
+int MyGPIO_Read ( GPIO_TypeDef * GPIO , char GPIO_Pin ) ;
 void MyGPIO_Set ( GPIO_TypeDef * GPIO , char GPIO_Pin ) ;
 void MyGPIO_Reset ( GPIO_TypeDef * GPIO , char GPIO_Pin ) ;
 void MyGPIO_Toggle ( GPIO_TypeDef * GPIO , char GPIO_Pin ) ;
