@@ -58,7 +58,7 @@ dkms.conf
 *.htm
 *.lnp
 *.dep
-*.uvguix*
+*.uvguix.*
 *.lst
 *.iex
 *.crf
