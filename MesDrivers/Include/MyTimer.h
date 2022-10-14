@@ -19,7 +19,8 @@ c o n f p l u s f i n e s (PWM, codeur i n c . . . )
 */
 void MyTimer_Base_Init ( MyTimer_Struct_TypeDef * Timer ) ;
 void MyTimer_ActiveIT (  TIM_TypeDef * Timer , char Prio, void (*IT_function) (void) ) ;
-void MyTimer_PWM( TIM_TypeDef * Timer , char Channel ) ;
+void MyTimer_PWM( TIM_TypeDef * Timer , char Channel, char CCRx ) ;
+char CCRx_Value(char ARR, char rapCyclique); //calcule la valeur de CCRx pour un rapport cyclique voulue, en fonction de la valeur d'ARR
 //#define MyTimer_Base_Start ( Timer ) ( . . . )
 //#define MyTimer_Base_Stop ( Timer ) ( . . . )
 #endif

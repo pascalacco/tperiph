@@ -68,7 +68,31 @@ void TIM4_IRQHandler (void)
 	TIM4->SR &= ~(0x01<<0);
 }
 
-void MyTimer_PWM( TIM_TypeDef * Timer , char Channel ) 
+char CCRx_Value(char ARR, char rapCyclique)
 {
-	//à completer
+	return (ARR/(rapCyclique/100));
+}
+
+void MyTimer_PWM( TIM_TypeDef * Timer , char Channel, char CCRx ) 
+{
+	if (Channel==1)
+	{
+			Timer->CCR1&= ~(0xFFFF<<0);
+			Timer->CCR1|= (CCRx<<0);
+	}
+	else if (Channel==2)
+	{
+			Timer->CCR2&= ~(0xFFFF<<0);
+			Timer->CCR2|= (CCRx<<0);
+	}
+	else if (Channel==3)
+	{
+			Timer->CCR3&= ~(0xFFFF<<0);
+			Timer->CCR3|= (CCRx<<0);
+	}
+		else if (Channel==4)
+	{
+			Timer->CCR4&= ~(0xFFFF<<0);
+			Timer->CCR4|= (CCRx<<0);
+	}
 }
