@@ -28,5 +28,7 @@ void MyTimer_Base_Init ( MyTimer_Struct_TypeDef * Timer ) ;
 * @Note : La fonction MyTimer_Base_Init doit avoir ete lancee au prealable
 **************************************************************************************************
 */
-void MyTimer_ActiveIT (TIM_TypeDef * Timer, char Prio) ;
+void MyTimer_ActiveIT (TIM_TypeDef * Timer, char Prio, void (*interrupt) (void)) ;
+
+void MyTimer_PWM(TIM_TypeDef * Timer, char Channel, char RC);
 #endif
