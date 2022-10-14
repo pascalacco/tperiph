@@ -403,6 +403,11 @@
               <FileType>1</FileType>
               <FilePath>U:\4IR\µcontroleur\tperiph\MesDrivers\Source\Driver_GPIO.c</FilePath>
             </File>
+            <File>
+              <FileName>Driver_ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>U:\4IR\µcontroleur\tperiph\MesDrivers\Source\Driver_ADC.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -809,6 +814,11 @@
               <FileName>Driver_GPIO.c</FileName>
               <FileType>1</FileType>
               <FilePath>U:\4IR\µcontroleur\tperiph\MesDrivers\Source\Driver_GPIO.c</FilePath>
+            </File>
+            <File>
+              <FileName>Driver_ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>U:\4IR\µcontroleur\tperiph\MesDrivers\Source\Driver_ADC.c</FilePath>
             </File>
           </Files>
         </Group>
