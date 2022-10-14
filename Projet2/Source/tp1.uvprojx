@@ -404,14 +404,14 @@
               <FilePath>..\..\MesDrivers\Include\Driver_GPIO.h</FilePath>
             </File>
             <File>
-              <FileName>Driver_CLK.h</FileName>
+              <FileName>Driver_Timer.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\MesDrivers\Include\Driver_CLK.h</FilePath>
+              <FilePath>..\..\MesDrivers\Include\Driver_Timer.h</FilePath>
             </File>
             <File>
-              <FileName>Driver_CLK.c</FileName>
+              <FileName>Driver_Timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\MesDrivers\Source\Driver_CLK.c</FilePath>
+              <FilePath>..\..\MesDrivers\Source\Driver_Timer.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -821,14 +821,14 @@
               <FilePath>..\..\MesDrivers\Include\Driver_GPIO.h</FilePath>
             </File>
             <File>
-              <FileName>Driver_CLK.h</FileName>
+              <FileName>Driver_Timer.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\MesDrivers\Include\Driver_CLK.h</FilePath>
+              <FilePath>..\..\MesDrivers\Include\Driver_Timer.h</FilePath>
             </File>
             <File>
-              <FileName>Driver_CLK.c</FileName>
+              <FileName>Driver_Timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\MesDrivers\Source\Driver_CLK.c</FilePath>
+              <FilePath>..\..\MesDrivers\Source\Driver_Timer.c</FilePath>
             </File>
           </Files>
         </Group>
