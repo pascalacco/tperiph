@@ -69,3 +69,6 @@ void TIM4_IRQHandler (void)
 }
 
 void MyTimer_PWM( TIM_TypeDef * Timer , char Channel ) 
+{
+	//à completer
+}
