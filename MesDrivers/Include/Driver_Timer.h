@@ -30,9 +30,14 @@ Page 2 of 4
 Activité 2 : Utilisation des Timer et gestion des Interruptions
 **************************************************************************************************
 */
-void MyTimer_ActiveIT ( TIM_TypeDef * Timer , uint32_t Prio ) ;
+void MyTimer_ActiveIT ( TIM_TypeDef * Timer , uint32_t Prio , void (*IT_function ) ( void )  ) ;
 
 
 #define MyTimer_Base_Start(ptrTimer) ((ptrTimer)->Timer->CR1 |= (1<<0))
 #define MyTimer_Base_Stop(ptrTimer) ((ptrTimer)->Timer->CR1 |= (0<<0))
 #endif
+
+//PMW
+
+void MyTimer_PWM( TIM_TypeDef * Timer , int Channel ) ;
+void set_pulse_pwm(TIM_TypeDef * Timer , int pulse );
